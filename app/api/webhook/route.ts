@@ -16,7 +16,6 @@ export async function POST(request: Request) {
         .from('messages')
         .insert([
           { 
-            // ဤနေရာတွင် || သင်္ကေတ နှစ်ခု ပါဝင်ရပါမည်
             user: post.chat?.title  post.from?.first_name  'News Bot', 
             text: post.text 
           }
